@@ -1,0 +1,72 @@
+#container {
+    width: 500px; /* Define a largura do container */
+    margin: 20px auto; /* Centraliza o container na página */
+}
+
+#quadrado {
+    width: 405px;
+    height: 130px;
+    background-color: #000000; /* Cor vermelha */
+    border-top-left-radius: 130%;
+    border-top-right-radius: 130%;
+}
+
+#rosto {
+    width: 400px;
+    height: 270px;
+    background-color: #fff0c7; /* Cor vermelha */
+    border: 3px solid #361313; /* Borda preta */
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#boca {
+    width: 130px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #ff0505; /* Cor vermelha */
+    margin-top: 15%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-color: black;
+}
+
+#circulo {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-color: #696969; /* Cor amarela */
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo */
+    border: 30px solid #ffffff; /* Borda preta */
+    margin-left: 60px;
+    margin-top: 2%;
+}
+
+#corpo {
+    width: 405px;
+    height: 500px;
+    background-color: #646464;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    display: inline-flex;
+}
+
+#b-esquerdo {
+    width: 105px;
+    height: 400px;
+    background-color: #b22222;
+    transform: rotate(310deg);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    margin-left: 23%;
+}
+
+#b-direito {
+    width: 105px;
+    height: 400px;
+    background-color: #934040;
+    transform: rotate(45deg);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
